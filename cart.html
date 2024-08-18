@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ Hàng</title>
+    <link rel="stylesheet" href="../CSS/cart.css">
+    <style>
+
+    
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Tên Shop</h1>
+            <ul class="nav-links">
+                <li><a href="index1.html">Trang Chủ</a></li>
+                <li><a href="sanpham.html">Sản Phẩm</a></li>
+                <li><a href="login.html">Đăng Nhập</a></li>
+                <li><a href="cart.html">Giỏ Hàng</a></li>
+                <li><a href="Thanhtoan.html">Thanh Toán</a></li>
+                <li><a href="signup.html">Đăng Kí</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="cart">
+            <h2>Giỏ Hàng Của Bạn</h2>
+            <div class="cart-items" id="cart-items"></div>
+            <div class="cart-total" id="cart-total"></div>
+            <div class="cart-buttons">
+                <a href="sanpham.html" class="btn">Tiếp Tục Mua Sắm</a>
+                <a href="Thanhtoan.html" class="btn">Thanh Toán</a>
+            </div>
+            <div id="cart-container"></div>
+            <button id="clearCartButton" onclick="clearCart()">Xóa tất cả</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Tên Shop. All rights reserved.</p>
+    </footer>
+   <script src="../JS/cart.js"> 
+    
+   </script>
+        
+    </body>
+</html>
